@@ -1,0 +1,41 @@
+.hero-img {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  position: relative;
+}
+.hero-img::before {
+  content: "";
+  background: url("https://media.istockphoto.com/id/1363745804/photo/erp-document-management-concept-businessman-working-with-laptop-computer-with-icons-on.jpg?s=612x612&w=is&k=20&c=1smPyHF8v5keihDUeDafi53Fb5Tdcn0pT3iHXS-iXVY=");
+  background-size: cover;
+  background-position: center top;
+  height:100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+
+}
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.hero-img h1{
+    font-size: 2.4rem;
+}
+
+@media screen and (max-width:640px) {
+    .hero-img{
+        font-size: 2rem;
+    } 
+}
+

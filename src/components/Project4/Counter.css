@@ -1,0 +1,29 @@
+.Wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 25px;
+    background: rgb(235, 235, 7);
+}
+.Wrapper button{
+    border: none;
+    outline:none;
+    padding: 8px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button.plus{
+    background-color: rgb(68, 68, 241);
+    color: #fff;
+}
+button.minus{
+    background-color:rgb(244, 57, 57);
+    color: #fff;
+
+}
+p{
+    font-size: 25px;
+}
